@@ -28,64 +28,61 @@
                 </div>
                 <div class="col-6">
                     <label for="inputAddress" class="form-label">Doc. Identificacion</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Cedula o NIT">
                 </div>
                 <div class="col-6">
                     <label for="inputAddress" class="form-label">Correo Electronico</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <input type="email" class="form-control" id="inputAddress" placeholder="correo@gmail.com">
                 </div>
                 <div class="col-6">
                     <label for="inputAddress" class="form-label">Direccion</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Transv 32 #27-52">
                 </div>
                 <div class="col-6">
                     <label for="inputAddress" class="form-label">Telefono</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <input type="tel" class="form-control" id="inputAddress" placeholder="301-521-7548 | 652-5774">
                 </div>
                 <div class="col-6">
                     <label for="inputAddress2" class="form-label">Rut</label>
                     <input type="text" class="form-control" id="inputAddress2"
-                        placeholder="Apartment, studio, or floor">
+                        placeholder="Ejm: 900.814.197">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputCity" class="form-label">Cod. Expediente Minero</label>
-                    <input type="number" class="form-control" id="inputCity">
+                    <label for="inputEmail4" class="form-label">Cod. expediente minero</label>
+                    <input class="form-control" type="text" placeholder="1" aria-label="Disabled input example"
+                        disabled>
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Estado del minero</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione el estado del minero</option>
-                        <option value="1">Activo</option>
-                        <option value="2">Inactivo</option>
-                    </select>
+                    <label for="inputCity" class="form-label">Estado del minero</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Inactivo">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">Areas Has</label>
-                    <input type="number" class="form-control" id="inputCity">
+                    <input type="number" class="form-control" id="inputCity" placeholder="Ejm: 253m^2">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">Dueños titulares</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <input type="text" class="form-control" id="inputCity" placeholder="Armando ruido">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">Tiempo de actividad minera (meses)</label>
-                    <input type="number" class="form-control" id="inputCity">
+                    <input type="number" class="form-control" id="inputCity" placeholder="5">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">Localizacion</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <input type="text" class="form-control" id="inputCity" placeholder="X=100.000, Y=500.000">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">Numero de dias trabajados</label>
-                    <input type="number" class="form-control" id="inputCity">
+                    <input type="number" class="form-control" id="inputCity"  placeholder="5">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">Ingreso mensual del minero</label>
-                    <input type="number" class="form-control" id="inputCity">
+                    <input type="number" class="form-control" id="inputCity" placeholder="$1.000.000">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">Produccion M3</label>
-                    <input type="number" class="form-control" id="inputCity">
+                    <input type="number" class="form-control" id="inputCity"  placeholder="150^3">
                 </div>
                 <div class="col-md-6">
                     <label for="exampleDataList" class="form-label">Autorizacion del titular minero</label>
@@ -104,103 +101,102 @@
                     <input type="date" class="form-control" id="inputCity">
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Estado civil</label>
+                    <label for="inputCity" class="form-label">Estado Civil</label>
+                    <input type="text" class="form-control" id="inputCity"  placeholder="Soltero">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Genero</label>
+                    <input type="text" class="form-control" id="inputCity"  placeholder="Masculino">
+                </div>
+                <div class="col-md-6">
+                    <label for="exampleDataList" class="form-label">Tipo de estrato socioeconomico</label>
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione su estado civil</option>
-                        <option value="1">Casado</option>
-                        <option value="2">Divorsiado</option>
-                        <option value="3">Viudo/a</option>
-                        <option value="4">Soltero</option>
+                        <option selected>Seleccione su estrato</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
                     </select>
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Genero</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione su genero</option>
-                        <option value="1">Masculino</option>
-                        <option value="2">Femenino</option>
-                        <option value="3">Homosexual</option>
-                        <option value="4">Ninguno</option>
-                    </select>
+                    <label for="inputCity" class="form-label">Tipo de grupo poblacional</label>
+                    <input type="text" class="form-control" id="inputCity"  placeholder="Personas en condición de discapacidad">
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Tipo de grupo poblacional</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione su grupo poblacional</option>
-                        <option value="1">Negritudes</option>
-                        <option value="2">Desplazados</option>
-                        <option value="3">Indigenas</option>
-                        <option value="4">Desmovilizado</option>
-                        <option value="5">Personas en condicion de discapacidad</option>
-                        <option value="6">Cabeza de familia</option>
-                        <option value="7">Raizal</option>
-
-                    </select>
+                    <label for="inputCity" class="form-label">Tipo de nivel educativo</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Secundaria">
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Tipo de nivel educativo</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione su nivel educativo</option>
-                        <option value="1">Primaria</option>
-                        <option value="2">Secundaria</option>
-                        <option value="3">Tecnica</option>
-                        <option value="4">Universitaria</option>
-
-                    </select>
+                    <label for="inputCity" class="form-label">Tipo de regimen de salud</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Contributivo">
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Tipo de regimen de salud</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione su regimen de salud</option>
-                        <option value="1">Contributivo</option>
-                        <option value="2">Subsidiado</option>
-                        <option value="3">Calidad de cotizante beneficiario</option>
-
-
-                    </select>
+                    <label for="inputCity" class="form-label">Tipo de discapacidad</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Auditiva">
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Tipo de discapacidad</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione su discapacidad</option>
-                        <option value="1">Motriz</option>
-                        <option value="2">Visual</option>
-                        <option value="3">Auditiva</option>
-                    </select>
+                    <label for="inputCity" class="form-label">Tipo de mineral extraido</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Grava,Arena">
                 </div>
                 <div class="col-md-6">
-                    <label for="exampleDataList" class="form-label">Tipo de mineral extraido</label>
+                    <label for="exampleDataList" class="form-label">Tipo de explotador</label>
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccione el tipo de mineral</option>
-                        <option value="1">Arcilla</option>
-                        <option value="2">Arena</option>
-                        <option value="3">Grava</option>
+                        <option selected>Seleccione el tipo de explotador</option>
+                        <option value="1">Titular minero</option>
+                        <option value="2">Contrato operativo</option>
+                        <option value="3">No Aplica.</option>
                     </select>
                 </div>
-
-
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">State</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
+                {{-- Modificado --}}
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Tipo de medio de transporte en campo</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Carretilla" >
                 </div>
-                <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Lugar de extraccion del material</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Campo abierto">
                 </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Etapa contractual</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Exploracion, Explotacion, Construccion" >
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Tipo de medio de transporte personal</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Personal">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Sitio de venta del material</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Particular">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Tipo de Tratamiento del material</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Selecciona">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Corregimiento</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Badillo">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Tipo de modalidad</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Contrato de concesion (I 685)">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Tipo de Clasificacion de mineria</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Grande">
+                </div>
+              
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Minerales</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Arenas">
+                </div>
+                
+               
                 <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Check me out
-                        </label>
-                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
                 </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                </div>
+                <div></div>
             </form>
         </div>
     </div>
