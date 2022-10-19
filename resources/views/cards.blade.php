@@ -42,7 +42,7 @@
                         <h5 class="card-title">Gestion de Minero</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="/public/screens/registrominero" class="btn btn-primary">Entrar</a>
+                        <a href="/registrominero" class="btn btn-primary">Entrar</a>
                     </div>
                 </div>
             </div>
