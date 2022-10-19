@@ -10,18 +10,17 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
 <style>
+    
     .textoblanco{
         color: white;
     }
-   .size{
-    font-size: 30px
-   }
+  
 </style>
 {{-- NAV BAR HOMEEE --}}
 <body>
-    <nav class="navbar navbar-expand-lg " style="background-color: #ff9e03;">
+    <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg" style="background-color: #ff9e03;">
         <div class="container-fluid">
-            <a class="navbar-brand size" href="#">G.I.M</a>
+            <a class="navbar-brand " href="#">G.I.M</a>
             <button class="navbar-toggler" style="background-color: #7e6060;" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -53,5 +52,8 @@
     @yield('content-card')
     @yield('content-registrominero')
 </body>
+<footer>
+   
+</footer>
 
 </html>

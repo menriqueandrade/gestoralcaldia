@@ -15,9 +15,22 @@
     </script>
 
 </head>
+<style>
+    
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .col-4{
+        margin-left: 9%
+    
+  }
+}
+
+</style>
 {{-- CARDS DEL HOME --}}
 <body>
-
     <div class="container">
         <div class="row">
 
@@ -29,7 +42,7 @@
                         <h5 class="card-title">Gestion de Minero</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="/registrominero" class="btn btn-primary">Entrar</a>
+                        <a href="/public/registrominero" class="btn btn-primary">Entrar</a>
                     </div>
                 </div>
             </div>
