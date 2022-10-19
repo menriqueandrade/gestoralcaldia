@@ -11,16 +11,14 @@
 </head>
 <style>
     
-    .textoblanco{
-        color: white;
-    }
+  
   
 </style>
 {{-- NAV BAR HOMEEE --}}
 <body>
     <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg" style="background-color: #ff9e03;">
         <div class="container-fluid">
-            <a class="navbar-brand " href="#">G.I.M</a>
+            <a class="navbar-brand " href="/public/home">G.I.M</a>
             <button class="navbar-toggler" style="background-color: #7e6060;" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active textoblanco" aria-current="page" href="/home">Pagina principal</a>
+                        <a class="nav-link active textoblanco" aria-current="page" href="/public/home">Pagina principal</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link textoblanco" href="#">Consultas</a>
@@ -38,13 +36,13 @@
                         <a class="nav-link textoblanco" href="#">Reportes</a>
                     </li>
                     <li class="nav-item dropdown">
-
+                        
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                    </li>
+                      </li>
                 </ul>
             </div>
         </div>

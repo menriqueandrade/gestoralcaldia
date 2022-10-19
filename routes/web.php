@@ -17,10 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
+Route::get('/public/home', function () {
     return view('home');
 });
 
-Route::get('/registrominero', function () {
+Route::get('/public/registrominero', function () {
     return view('registrominero');
 });
